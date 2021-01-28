@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+    width: 75vw;
+}
+
+section {
+    float: left;
+    width: 25vw;
+    background-color: blue;
+}
