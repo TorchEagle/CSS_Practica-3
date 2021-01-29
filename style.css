@@ -1,12 +1,68 @@
+@font-face {
+    font-family: PottaOne;
+    src: url(Fuentes/PottaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: YuseiMagic;
+    src: url(Fuentes/YuseiMagic-Regular.ttf);
+}
+
 h1 {
+    font-family: 'PottaOne';
     text-align: center;
     color: yellow;
     background-color: blue;
     width: 75vw;
 }
 
-section {
+section.izquierda {
     float: left;
     width: 25vw;
+    background-color: rgb(27, 155, 160);
+}
+
+section.izquierda p {
+    line-height: 30px;
+    color: white;
+    margin: 0px;
+}
+
+p {
+    margin-bottom: 0%;
+}
+
+p.CC {
+    font-family: 'Coda Caption';
+    font-size: 190%;
+    margin-top: 0%;
+}
+
+p.yusei {
+    font-family: 'YuseiMagic';
+    font-size: 180%;
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+span {
+    background-color: black;
+    color: yellow;
+    line-height: 40px;
+}
+
+hr {
+    margin-top: 9px;
+    width: 51vw;
+}
+
+hr.azul {
+    clear: left;
+    margin-top: 13px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    color: blue;
     background-color: blue;
+    height: 20px;
+    width: 75vw;
 }
